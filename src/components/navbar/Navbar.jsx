@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 
-export const Navbar = () => {
+const Navbar = () => {
   const motionProps = {
     initial: { opacity: 0, scale: 0.5 },
     animate: { opacity: 1, scale: 1 },
@@ -26,3 +26,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default Navbar;
