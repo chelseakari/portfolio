@@ -1,18 +1,26 @@
+import { motion } from "framer-motion";
+import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 
 export const Navbar = () => {
+  const motionProps = {
+    initial: { opacity: 0, scale: 0.5 },
+    animate: { opacity: 1, scale: 1 },
+    transition: { duration: 0.5 },
+  };
   return (
     <div className="navbar">
       {/* Sidebar */}
+      <Sidebar />
       <div className="wrapper">
-        <span>Chelsea Chen</span>
+        <motion.span {...motionProps}>Chelsea Chen</motion.span>
         <div className="social">
-          <a href="#">
+          <motion.a href="#" {...motionProps}>
             <img src="/linkedin.png" alt="" />
-          </a>
-          <a href="#">
+          </motion.a>
+          <motion.a href="#" {...motionProps}>
             <img src="/github-mark-white.png" alt="" />
-          </a>
+          </motion.a>
         </div>
       </div>
     </div>
