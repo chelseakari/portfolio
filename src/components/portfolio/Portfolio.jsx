@@ -8,18 +8,21 @@ const items = [
     title: "Survey Sky",
     img: "/survey-sky.png",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    hasLink: true,
   },
   {
     id: 2,
     title: "ICS Search Engine",
     img: "/search-result.png",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    hasLink: false,
   },
   {
     id: 3,
     title: "Solace",
     img: "/solace_font.png",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    hasLink: true,
   },
 ];
 
@@ -43,7 +46,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Project</button>
+            {item.hasLink && <button>See Project</button>}
           </motion.div>
         </div>
       </div>
