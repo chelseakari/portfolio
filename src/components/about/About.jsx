@@ -34,8 +34,8 @@ const About = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I am interested in web dev, <br />
-          cybersecurity and DevOps.
+          I am interested in web dev <br />
+          and cybersecurity.
         </p>
         <hr />
       </motion.div>
@@ -83,8 +83,9 @@ const About = () => {
           </ul>
         </motion.div>
         <motion.div className="box">
-          <h2>Activities</h2>
+          <h2>Experience & Activities</h2>
           <ul>
+            <li>SWE Intern at Kavayah Cloud for Summer 2023</li>
             <li>Infra team member at Cyber@UCI</li>
             <li>General member of WICS at UCI</li>
             <li>Undergraduate/Undeclared Mentor (2022~2023)</li>
