@@ -1,6 +1,6 @@
 @import "../../app.scss";
 
-.services {
+.about {
   background: linear-gradient(180deg, #0c0c1d, #111132);
   height: 100%;
   display: flex;
@@ -15,9 +15,7 @@
     gap: 20px;
 
     @include mobile {
-      align-self: center;
-      text-align: center;
-      flex-direction: column;
+      display: none;
     }
 
     p {
@@ -56,18 +54,6 @@
         flex-direction: column;
         text-align: center;
         gap: 20px;
-      }
-
-      img {
-        width: 300px;
-        height: 100px;
-        border-radius: 50px;
-        object-fit: cover;
-
-        @include mobile {
-          width: 200px;
-          height: 50px;
-        }
       }
 
       h1 {
@@ -109,21 +95,28 @@
 
     .box {
       padding: 50px;
-      border: 0.5px solid gray;
+      border: none;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
 
       @include mobile {
         border: none;
-        align-items: center;
+        align-items: left;
         gap: 20px;
         padding: 10px;
+        justify-content: left;
       }
 
-      p {
+      ul {
+        padding: 0;
+        margin: 0;
         @include mobile {
-          display: none;
+          margin: 15px;
+        }
+        li {
+          margin-bottom: 5px;
+          vertical-align: top;
         }
       }
 
