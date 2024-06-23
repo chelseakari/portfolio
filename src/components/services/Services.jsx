@@ -30,13 +30,11 @@ const Services = () => {
       initial="initial"
       //   whileInView="animate"
       ref={ref}
-      animate={isInView && "animate"}
+      animate={"animate"}
     >
       <motion.div
         className="textContainer"
         variants={variants}
-        initial="initial"
-        animate="animate"
       >
         <p>
           I focus on helping your brand grow <br />
@@ -47,8 +45,6 @@ const Services = () => {
       <motion.div
         className="titleContainer"
         variants={variants}
-        initial="initial"
-        animate="animate"
       >
         <div className="title">
           <img src="/people.webp" />
@@ -67,8 +63,6 @@ const Services = () => {
       <motion.div
         className="listContainer"
         variants={variants}
-        initial="initial"
-        animate="animate"
       >
         <motion.div
           className="box"
