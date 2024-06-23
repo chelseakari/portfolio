@@ -83,7 +83,7 @@
         width: 300px;
         height: 100px;
         border-radius: 50px;
-        background-color: orange;
+        background-color: #c766bb;
         border: none;
         font-size: 24px;
         cursor: pointer;
@@ -129,15 +129,15 @@
 
       button {
         padding: 10px;
-        background-color: orange;
+        background-color: #c766bb;
         border: none;
         cursor: pointer;
 
         @include mobile {
           background-color: transparent;
-          border: 1px solid orange;
+          border: 1px solid #c766bb;
           border-radius: 5px;
-          color: orange;
+          color: #c766bb;
           width: 50%;
           padding: 5px;
         }

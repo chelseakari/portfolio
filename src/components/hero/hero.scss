@@ -29,7 +29,7 @@
 
       h2 {
         font-size: 30px;
-        color: rebeccapurple;
+        color: #bc6adf;
         letter-spacing: 10px;
       }
 
@@ -42,6 +42,7 @@
       }
 
       .buttons {
+        z-index: 999;
         button {
           padding: 20px;
           border: 1px solid white;

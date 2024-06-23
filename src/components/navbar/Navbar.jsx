@@ -15,10 +15,20 @@ const Navbar = () => {
       <div className="wrapper">
         <motion.span {...motionProps}>Chelsea Chen</motion.span>
         <div className="social">
-          <motion.a href="#" {...motionProps}>
+          <motion.a
+            href="https://www.linkedin.com/in/chelseaachen/"
+            target="_blank"
+            rel="noopener noreferrer"
+            {...motionProps}
+          >
             <img src="/linkedin.png" alt="" />
           </motion.a>
-          <motion.a href="#" {...motionProps}>
+          <motion.a
+            href="https://github.com/chelseakari"
+            target="_blank"
+            rel="noopener noreferrer"
+            {...motionProps}
+          >
             <img src="/github-mark-white.png" alt="" />
           </motion.a>
         </div>

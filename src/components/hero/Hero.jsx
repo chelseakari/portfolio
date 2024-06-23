@@ -51,10 +51,18 @@ const Hero = () => {
           <motion.h2 variants={textVariants}>CHELSEA CHEN</motion.h2>
           <motion.h1 variants={textVariants}>Software Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <a
+              href="https://drive.google.com/file/d/16YMNbusZHdML8i_63X9OJwnmyLE2Xkrw/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <motion.button variants={textVariants}>
+                See My Resume
+              </motion.button>
+            </a>
+            <a href="#Contact">
+              <motion.button variants={textVariants}>Contact Me</motion.button>
+            </a>
           </motion.div>
           <motion.img
             variants={textVariants}
