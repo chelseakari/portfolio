@@ -15,7 +15,9 @@
     gap: 20px;
 
     @include mobile {
-      display: none;
+      align-self: center;
+      text-align: center;
+      flex-direction: column;
     }
 
     p {

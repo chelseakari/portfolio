@@ -34,8 +34,9 @@ const About = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I am interested in web dev <br />
-          and cybersecurity.
+          More details are in my resume.
+          <br />
+          Scroll back up to download.
         </p>
         <hr />
       </motion.div>
