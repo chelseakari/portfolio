@@ -13,7 +13,6 @@ const Navbar = () => {
       {/* Sidebar */}
       <Sidebar />
       <div className="wrapper">
-        <motion.span {...motionProps}>Chelsea Chen</motion.span>
         <div className="social">
           <motion.a
             href="https://www.linkedin.com/in/chelseaachen/"
