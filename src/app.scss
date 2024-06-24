@@ -1,7 +1,7 @@
 html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  overscroll-behavior-y: none;
+  overflow-y: scroll;
 }
 
 * {

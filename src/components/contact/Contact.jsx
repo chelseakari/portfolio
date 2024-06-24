@@ -1,6 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { motion, useInView } from "framer-motion";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import "./contact.scss";
 
 const variants = {
@@ -25,6 +25,28 @@ const Contact = () => {
   const [success, setSuccess] = useState(false);
 
   const isInView = useInView(ref, { margin: "-100px" });
+
+  useEffect(() => {
+    const handleFocus = () => {
+      document.documentElement.style.scrollSnapType = 'none';
+    };
+    const handleBlur = () => {
+      document.documentElement.style.scrollSnapType = 'y mandatory';
+    };
+
+    const inputs = formRef.current.querySelectorAll("input, textarea");
+    inputs.forEach(input => {
+      input.addEventListener("focus", handleFocus);
+      input.addEventListener("blur", handleBlur);
+    });
+
+    return () => {
+      inputs.forEach(input => {
+        input.removeEventListener("focus", handleFocus);
+        input.removeEventListener("blur", handleBlur);
+      });
+    };
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
