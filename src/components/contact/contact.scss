@@ -52,7 +52,8 @@
       }
 
       @include tablet {
-        font-size: 60px;
+        font-size: 50px;
+        line-height: 50px;
       }
     }
 
@@ -71,11 +72,13 @@
     @include mobile {
       padding: 10px;
       width: 100%;
+      top: 0;
     }
 
     @include tablet {
-      padding: 30px;
+      padding: 10px;
       width: 100%;
+      top: 0;
     }
 
     form {
