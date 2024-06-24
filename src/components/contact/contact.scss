@@ -12,6 +12,16 @@
     width: 100%;
     padding: 10px;
     flex-direction: column;
+    scroll-snap-type: none;
+    scroll-snap-align: none;
+  }
+
+  @include tablet {
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    scroll-snap-type: none;
+    scroll-snap-align: none;
   }
 
   .textContainer {
@@ -27,12 +37,23 @@
       margin-top: 70px;
     }
 
+    @include tablet {
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+
     h1 {
       font-size: 100px;
       line-height: 88px;
 
       @include mobile {
         font-size: 36px;
+      }
+
+      @include tablet {
+        font-size: 60px;
       }
     }
 
@@ -47,6 +68,11 @@
 
     @include mobile {
       padding: 50px;
+      width: 100%;
+    }
+
+    @include tablet {
+      padding: 70px;
       width: 100%;
     }
 
@@ -71,7 +97,7 @@
       button {
         padding: 20px;
         border: none;
-        background-color: #C766BB;
+        background-color: #c766bb;
         cursor: pointer;
         font-weight: 500;
 
