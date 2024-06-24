@@ -1,6 +1,6 @@
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
-import "./portfolio.scss";
+import "./projects.scss";
 
 const items = [
   {
@@ -15,7 +15,7 @@ const items = [
     id: 2,
     title: "ICS Search Engine",
     img: "/search-result.png",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    desc: "I created a search engine for websites under UCI's ICS(Information & Computer Sciences) subdomain. I created an inverted index for 55,393 pages, and used components such as tf-idf scores and HTML tag counts (ie: bold/header text = higher rank) to rank search results. Coded all in Python, and web GUI was created using Streamlit.",
     hasLink: false,
     link: "",
   },
@@ -23,7 +23,7 @@ const items = [
     id: 3,
     title: "Solace",
     img: "/solace_font.png",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    desc: "Solace is a web app for journaling negative thoughts, where Gemini AI uses cognitive behavioral therapy to guide users toward more balanced, positive way of thinking. I led the frontend development for the project, and we used TypeScript React and MaterialUI. I implemented a feature using MediaRecorder API, so that  users can speak to the AI using their voice. Project for VenusHacks 2024.",
     hasLink: true,
     link: "https://devpost.com/software/solace-kysqua",
   },
@@ -63,7 +63,7 @@ const Single = ({ item }) => {
     </section>
   );
 };
-const Portfolio = () => {
+const Projects = () => {
   const ref = useRef();
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -74,7 +74,7 @@ const Portfolio = () => {
     damping: 30,
   });
   return (
-    <div className="portfolio" ref={ref}>
+    <div className="projects" ref={ref}>
       <div className="progress">
         <h1>My Projects</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
@@ -86,4 +86,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
