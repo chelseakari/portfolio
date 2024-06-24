@@ -13,16 +13,13 @@
     width: 100%;
     padding: 10px;
     flex-direction: column;
-    scroll-snap-type: none;
-    scroll-snap-align: none;
+    scroll-snap-align: bottom;
   }
 
   @include tablet {
     width: 100%;
     padding: 20px;
     flex-direction: column;
-    scroll-snap-type: none;
-    scroll-snap-align: none;
   }
 
   .textContainer {
@@ -86,6 +83,10 @@
       flex-direction: column;
       gap: 20px;
 
+      @include mobile {
+        scroll-snap-align: bottom;
+      }
+
       input,
       textarea {
         padding: 20px;
@@ -96,6 +97,7 @@
 
         @include mobile {
           padding: 10px;
+          scroll-snap-align: bottom;
         }
       }
 
