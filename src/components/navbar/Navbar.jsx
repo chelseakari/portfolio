@@ -21,7 +21,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             {...motionProps}
           >
-            <img src="/linkedin.png" alt="" />
+            <img src="linkedin.png" alt="" />
           </motion.a>
           <motion.a
             href="https://github.com/chelseakari"
@@ -29,7 +29,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             {...motionProps}
           >
-            <img src="/github-mark-white.png" alt="" />
+            <img src="github-mark-white.png" alt="" />
           </motion.a>
         </div>
       </div>
