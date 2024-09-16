@@ -86,8 +86,8 @@ const About = () => {
         <motion.div className="box">
           <h2>Experience & Activities</h2>
           <ul>
-            <li>SWE Intern at Kavayah Cloud for Summer 2023</li>
-            <li>Infra team member at Cyber@UCI</li>
+            <li>SWE Intern at Kavayah Cloud <br/> (Summer 2023)</li>
+            <li>Rewriting the Code Member since June 2024</li>
             <li>General member of WICS at UCI</li>
             <li>Undergraduate/Undeclared Mentor (2022~2023)</li>
             <li>Learning Assistant for Discrete Math (Spring 2023)</li>
