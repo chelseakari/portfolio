@@ -59,7 +59,7 @@ const About = () => {
             <li>4th Year Computer Science student at UC Irvine</li>
             <li>Specializing in Information</li>
             <li>GPA: 3.894</li>
-            <li>Expected Graduation: March 2025</li>
+            <li>Expected Graduation: June 2025</li>
           </ul>
         </motion.div>
         <motion.div className="box">
