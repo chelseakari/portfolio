@@ -8,7 +8,7 @@ const items = [
     title: "Survey Sky",
     img: "survey-sky.png",
     desc: "Survey Sky is a website with a goal of helping users gather responses from a broader, less biased sample. It lets survey creators specify the demographics they want responses from, and has a point system that encourages users to respond to more surveys in order to promote their own surveys more.",
-    hasLink: true,
+    hasLink: false,
     link: "https://surveysky.net/",
   },
   {
