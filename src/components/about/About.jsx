@@ -34,9 +34,9 @@ const About = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          More details are in my resume.
+          More details are in my resume & LinkedIn.
           <br />
-          Scroll back up to download.
+          Scroll back up to see.
         </p>
         <hr />
       </motion.div>
@@ -58,7 +58,7 @@ const About = () => {
           <ul>
             <li>4th Year Computer Science student at UC Irvine</li>
             <li>Specializing in Information</li>
-            <li>GPA: 3.896</li>
+            <li>GPA: 3.9</li>
             <li>Expected Graduation: June 2025</li>
           </ul>
         </motion.div>
@@ -66,10 +66,9 @@ const About = () => {
           <h2>Programming Languages</h2>
           <ul>
             <li>Python</li>
-            <li>TypeScript</li>
-            <li>JavaScript</li>
-            <li>C++</li>
-            <li>C</li>
+            <li>TypeScript & JavaScript</li>
+            <li>Java</li>
+            <li>C & C++</li>
             <li>SQL</li>
           </ul>
         </motion.div>
@@ -86,11 +85,11 @@ const About = () => {
         <motion.div className="box">
           <h2>Experience & Activities</h2>
           <ul>
-            <li>SWE Intern at Kavayah Cloud <br/> (Summer 2023)</li>
-            <li>Rewriting the Code Member since June 2024</li>
-            <li>General member of WICS at UCI</li>
-            <li>Undergraduate/Undeclared Mentor (2022~2023)</li>
-            <li>Learning Assistant for Discrete Math (Spring 2023)</li>
+            <li>Marketing Organizer & Web Dev for Venushacks</li>
+            <li>Grader for Data Structures & Algorithm Class</li>
+            <li>Software Engineer Volunteer for Survey Sky</li>
+            <li>SWE Intern at Kavayah Cloud</li>
+            <li>Learning Assistant for Discrete Math</li>
           </ul>
         </motion.div>
       </motion.div>

@@ -15,3 +15,15 @@ This project was built using the following technologies:
 :art: Styled with SCSS\
 :clapper: Animated with Framer Motion\
 :iphone: Fully responsive design
+
+## Setup
+To run this project, run:
+```
+npm run dev
+```
+
+## Deployment
+To deploy this project, run:
+```
+npm run deploy
+```

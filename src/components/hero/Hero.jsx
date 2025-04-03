@@ -77,7 +77,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Student WebDev
+        Information WebDev
       </motion.div>
       <div className="imageContainer">
         <img src="hero.png" />
