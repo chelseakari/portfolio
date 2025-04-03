@@ -85,9 +85,9 @@ const About = () => {
         <motion.div className="box">
           <h2>Experience & Activities</h2>
           <ul>
-            <li>Marketing Organizer & Web Dev for Venushacks</li>
-            <li>Grader for Data Structures & Algorithm Class</li>
-            <li>Software Engineer Volunteer for Survey Sky</li>
+            <li>Marketing Organizer & Web Dev for VenusHacks</li>
+            <li>Grader for Algorithm Design & Analysis class</li>
+            <li>SWE Volunteer for Survey Sky</li>
             <li>SWE Intern at Kavayah Cloud</li>
             <li>Learning Assistant for Discrete Math</li>
           </ul>
