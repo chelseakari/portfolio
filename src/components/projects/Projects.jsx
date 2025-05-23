@@ -39,7 +39,7 @@ const items = [
     id: 5,
     title: "VenusHacks 2025",
     img: "vh-about.png",
-    desc: "VenusHacks is the largest women-centric hackathon hosted at UCI every spring. I contributed to the About and FAQ sections of the homepage, using ReactJS and Sass for development. I also integrated Sanity as a content management system to store dynamic content, such as FAQ data, so that updates can be made without modifying the code. Other sections will also utilize Sanity in the future for easier content management.",
+    desc: "VenusHacks is the largest women-centric hackathon hosted at UCI every spring. I worked on the About, FAQ, and Schedule sections, using ReactJS and Scss for development. I also integrated Sanity as a content management system to store dynamic content, such as FAQ and schedule data, so that updates can be made without modifying the code.",
     hasLink: true,
     link: "https://venushacks.com/",
   },
