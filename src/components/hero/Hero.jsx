@@ -52,7 +52,7 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>Software Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <a
-              href="https://drive.google.com/file/d/16YMNbusZHdML8i_63X9OJwnmyLE2Xkrw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1z442u1fgxOJMghjG5MhDO1xvB9e5Ck7Y/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

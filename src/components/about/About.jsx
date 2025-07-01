@@ -56,10 +56,8 @@ const About = () => {
         <motion.div className="box">
           <h2>Education</h2>
           <ul>
-            <li>4th Year Computer Science student at UC Irvine</li>
-            <li>Specializing in Information</li>
-            <li>GPA: 3.9</li>
-            <li>Expected Graduation: June 2025</li>
+            <li>B.S. in Computer Science from UC Irvine</li>
+            <li>Specialized in Information</li>
           </ul>
         </motion.div>
         <motion.div className="box">
@@ -85,11 +83,11 @@ const About = () => {
         <motion.div className="box">
           <h2>Experience & Activities</h2>
           <ul>
+            <li>Incoming: Software engineer at Visa</li>
             <li>Marketing Organizer & Web Dev for VenusHacks</li>
             <li>Grader for Algorithm Design & Analysis class</li>
             <li>SWE Volunteer for Survey Sky</li>
             <li>SWE Intern at Kavayah Cloud</li>
-            <li>Learning Assistant for Discrete Math</li>
           </ul>
         </motion.div>
       </motion.div>
